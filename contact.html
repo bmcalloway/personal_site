@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Info</title>
+    </head>
+    <body>
+        <h1>Contact Details</h1>
+        <hr size="1">
+        <p>E-mail: Benjamincalloway@hotmail.com</p>
+        <p>Cell: 1-709-454-7490</p>
+        <p>Preferred method of contact is via cell phone or email, Monday-Friday before 5pm. Thanks!</p>
+        <hr size="3" noshade>
+        <form action="Benjamincalloway@hotmail.com" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td><Label>Your Name:</Label></td></td>
+                    <td><input type="text" name="Name"><br></td>
+                </tr>
+                <tr>
+                    <td><label>E-Mail:</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Message:</label></td>
+                    <td><textarea name="message" rows="10" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Additional Files:</label></td>
+                    <td><input type="file" name="files"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Urgency of Request:</label></td>
+                    <td><input type="range" name="urgency"><br></td>
+                </tr>
+                <tr>
+                    <td><label>I am not a robot</label></td>
+                    <td><input type="checkbox" name="norobot"></td>
+                </tr>
+            </table>
+            <input type="submit" name="submitted">
+        </form>
+    </body>
+</html>
